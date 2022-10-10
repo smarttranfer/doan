@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'living_room/living_home_page.dart';
+import 'login/login_screen.dart';
 
 void main() {
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LivingHomePage(),
+      home: LoginScreen(),
     );
   }
 }
